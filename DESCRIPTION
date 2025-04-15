@@ -1,0 +1,13 @@
+Package: limai
+Title: Linear modeling and AI decision-making 
+Version: 0.0.1
+Author: Xu Liu [aut,cre]
+Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
+Description: Data sets used in the book "Linear modeling and AI decision-making"
+License: GPL (>=2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports: Matrix, glmnet
+LazyData: true
