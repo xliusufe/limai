@@ -14,7 +14,7 @@ R package "limai" includes data sets used in the book "Linear modeling and AI de
 
 # Usage
 
-- [x] [ailm-manual.pdf](https://github.com/xliusufe/ailm/inst/limai-manual.pdf) ------------ Details of the usage of the package.
+- [x] [limai-manual.pdf](https://github.com/xliusufe/ailm/inst/limai-manual.pdf) ------------ Details of the usage of the package.
 
 # Example
     library(glmnet)
