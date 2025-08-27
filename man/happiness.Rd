@@ -9,26 +9,26 @@
   The dataset enables quantitative analysis of global well-being and policy-related research.
 }
 
-\usage{data(happiness)}
+\usage{
+  data(happiness)
+}
 
-\format{
+\arguments{
   A data frame object containing country-level records with the following 13 variables:
-  \tabular{lll}{
-   \strong{Name}       \tab \strong{Type}    \tab \strong{Description} \\ \hline
-   \code{country}      \tab character        \tab Name of the country \cr
-   \code{region}       \tab character        \tab Geographic region of the country \cr
-   \code{happ_rank}    \tab integer          \tab Overall rank based on the happiness score \cr
-   \code{happ_score}   \tab numeric          \tab Happiness score (0–10 scale) for 2016 \cr
-   \code{lower_ci}     \tab numeric          \tab Lower bound of the confidence interval of the score \cr
-   \code{upper_ci}     \tab numeric          \tab Upper bound of the confidence interval of the score \cr
-   \code{economy}      \tab numeric          \tab Contribution of GDP per capita to the happiness score \cr
-   \code{family}       \tab numeric          \tab Contribution of social/family support \cr
-   \code{health}       \tab numeric          \tab Contribution of life expectancy \cr
-   \code{freedom}      \tab numeric          \tab Contribution of personal freedom \cr
-   \code{trust}        \tab numeric          \tab Contribution of trust in government / corruption perception \cr
-   \code{generosity}   \tab numeric          \tab Contribution of generosity \cr
-   \code{dystopia}     \tab numeric          \tab Dystopia residual ensuring positivity of all subcomponents \cr
-  }
+\tabular{ll}{
+  \strong{Variable Name} \tab \strong{Variable Description} \cr
+  Country                \tab Country name \cr
+  Region                 \tab Region where the country is located \cr
+  Rank                   \tab Ranking based on overall happiness score \cr
+  Score                  \tab Happiness score in 2016 (0-10) \cr
+  Economy (GDP per Capita) \tab Contribution of GDP per capita to happiness score \cr
+  Family                 \tab Contribution of social support to happiness score \cr
+  Health (Life Expectancy) \tab Contribution of life expectancy to happiness score \cr
+  Freedom                \tab Contribution of personal freedom to happiness score \cr
+  Generosity             \tab Contribution of generosity to happiness score \cr
+  Trust (Government Corruption) \tab Contribution of distrust in government corruption to happiness score \cr
+  Dystopia Residual      \tab Residual compared to the "dystopia" benchmark \cr
+}
 }
 
 \details{

@@ -5,7 +5,7 @@
     The dataset contains information on housing values in suburbs of Boston, including various attributes such as crime rate, property tax, and average number of rooms.
 }
 \usage{
-    data(boston)
+data(boston)
 }
 \arguments{
 \item{crim}{Per capita crime rate by town.}
