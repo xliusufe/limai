@@ -14,10 +14,10 @@ A dataset containing gender, height and weight measurements for individuals. }
                 "Height",
                 "Weight"
 \tabular{lll}{
-   \strong{Name}      \tab \strong{Type}                 \cr
+   \strong{Name}      \tab \strong{Type}        \cr
    \code{Weight}          \tab integer          \cr
    \code{Height}         \tab integer        \cr
-   \code{Gender}      \tab character                \cr
+   \code{Gender}      \tab character         \cr
     }
 }
 
